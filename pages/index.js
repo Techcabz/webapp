@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function Home() {
   return (
@@ -66,6 +67,10 @@ export default function Home() {
           </span>
         </a>
       </footer>
+      <MessengerCustomerChat
+        pageId="903636103147083"
+        appId="493442192884442"
+      />
     </div>
   )
 }
